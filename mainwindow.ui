@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>713</width>
+    <height>393</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Magazyn</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QMdiArea" name="mdiArea"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>713</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuPlik">
+    <property name="title">
+     <string>Plik</string>
+    </property>
+    <addaction name="actionKoniec"/>
+   </widget>
+   <widget class="QMenu" name="menuObroty_magazynowe">
+    <property name="title">
+     <string>Obroty magazynowe</string>
+    </property>
+    <addaction name="actionPrzyjeciaPZ"/>
+    <addaction name="actionWydaniaWZ"/>
+   </widget>
+   <widget class="QMenu" name="menuPomoc">
+    <property name="title">
+     <string>Pomoc</string>
+    </property>
+    <addaction name="actionOprogramie"/>
+   </widget>
+   <widget class="QMenu" name="menuKartoteki">
+    <property name="title">
+     <string>Kartoteki</string>
+    </property>
+    <addaction name="actionProdukty"/>
+    <addaction name="actionKontrahenci"/>
+    <addaction name="separator"/>
+    <addaction name="actionUzytkownicy"/>
+   </widget>
+   <addaction name="menuPlik"/>
+   <addaction name="menuObroty_magazynowe"/>
+   <addaction name="menuKartoteki"/>
+   <addaction name="menuPomoc"/>
+  </widget>
+  <action name="actionKoniec">
+   <property name="text">
+    <string>Koniec</string>
+   </property>
+  </action>
+  <action name="actionPrzyjeciaPZ">
+   <property name="text">
+    <string>Przyjęcia PZ</string>
+   </property>
+  </action>
+  <action name="actionWydaniaWZ">
+   <property name="text">
+    <string>Wydania WZ</string>
+   </property>
+  </action>
+  <action name="actionOprogramie">
+   <property name="text">
+    <string>O programie</string>
+   </property>
+  </action>
+  <action name="actionProdukty">
+   <property name="text">
+    <string>Produkty</string>
+   </property>
+  </action>
+  <action name="actionKontrahenci">
+   <property name="text">
+    <string>Kontrahenci</string>
+   </property>
+  </action>
+  <action name="actionUzytkownicy">
+   <property name="text">
+    <string>Użytkownicy</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
